@@ -3,32 +3,23 @@ import {Link} from 'react-router-dom'
 import {FaTimes} from 'react-icons/fa'
 
 
-export const Container = styled.div`
-position:fixed;
-bottom:0;
-left: 0;
-right: 0;
-top: 0;
-z-index: 0;
-background: #F9A826;
-`;
-
 
 export const FormWrap = styled.div`
-    height: 100%;
+     height: 100vh;
     display:flex;
     flex-direction:column;
     justify-content: center;
-
-    @media screen and (max-width: 400px){
-        height: 80%;
-    }
+    background: #F9A826;
+    padding: 20px 0 20px 0px; 
+   width:100%;
+  
+    
 `;
 
 
 export const Icon = styled(Link)`
 
-margin-left: 32px;
+ margin-left: 32px;
 margin-top: 32px;
 text-decoration:none;
 color: #fff;
@@ -36,25 +27,6 @@ font-weight:700;
 font-size: 32px;
 
 
-@media screen and (max-width: 480px){
-    margin-left: 16px;
-    margin-top: 8px;
-}
-
-`;
-
-export const FormContent = styled.div`
-
-height: 300px;
-display:flex;
-flex-direction: column;
-justify-content:center;
-
-
-@media screen and (max-width: 480px){
-    padding: 10px;
-  
-}
 
 `;
 
@@ -65,37 +37,31 @@ background: #000;
 width: 350px;
 height: 550px;
 z-index: 1;
-display: grid;
-margin: 0 auto;
+display: flex;
+flex-direction: column;
+justify-content:center;
+margin-left: auto;
+margin-right: auto;
 padding: 5px 32px 32px 32px;
 border-radius: 4px;
 box-shadow: 0 1px 3px rgba(0,0,0,0.9);
-margin-bottom: 50px;
-margin-top:30px;
 
-@media screen and (max-width: 1024px){
-    margin-bottom: 50px;
- }
 
-@media screen and (max-width: 440px){
-   margin-top: 10px;
+
+
+@media screen and (max-width: 450px){
+   
     width: 250px;
 }
 
-@media screen and (max-width: 400px){
-   margin-top: 150px;
-    width: 250px;
-}
 
-@media screen and (max-width: 375px){
-    margin-top: 210px;
+
+@media screen and (max-width: 365px){
      width: 210px;
+
  }
 
-@media screen and (max-width: 280px){
-    margin-top: 210px;
-     width: 200px;
- }
+
 
 `;
 
@@ -126,18 +92,18 @@ border-radius: 4px;
 
 
 export const FormTextarea = styled.textarea`
-
-padding: 0 16px 16px 16px;
-margin-bottom: 10px;
-border: none;
 border-radius: 4px;
+padding: 0 0 50px 5px;
+margin-bottom: 10px;
+overflow-y:hidden;
+resize: none;
 
 `;
 
 export const FormButton = styled.button`
 
 background: #F9A826;
-padding: 10px 0;
+padding: 5px 0;
 border: none;
 border-radius: 4px;
 color: #000;

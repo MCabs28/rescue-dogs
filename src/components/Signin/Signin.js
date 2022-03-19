@@ -1,10 +1,9 @@
 import React from 'react'
 import {
 
-    Container,
+   
     FormWrap,
     Icon,
-    FormContent,
     Form,
     FormH1,
     FormLabel,
@@ -19,10 +18,10 @@ import {
 const Signin = () => {
   return (
     <>
-        <Container>
+        
             <FormWrap>
                
-                    <FormContent>
+             
 
                    
 
@@ -49,9 +48,9 @@ const Signin = () => {
                             <FormButton type='submit'>Send Now</FormButton>                   
 
                         </Form>
-                    </FormContent>
+                   
             </FormWrap>
-        </Container>
+        
     </>
   )
 }
