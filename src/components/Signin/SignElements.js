@@ -4,18 +4,13 @@ import {FaTimes} from 'react-icons/fa'
 
 
 export const Container = styled.div`
-min-height: 692px;
 position:fixed;
 bottom:0;
 left: 0;
 right: 0;
 top: 0;
 z-index: 0;
-overflow:hidden;
 background: #F9A826;
-
-)
-
 `;
 
 
@@ -83,17 +78,22 @@ margin-top:30px;
  }
 
 @media screen and (max-width: 440px){
+   margin-top: 10px;
+    width: 250px;
+}
+
+@media screen and (max-width: 400px){
    margin-top: 150px;
     width: 250px;
 }
 
 @media screen and (max-width: 375px){
-    margin-top: 230px;
-     width: 250px;
+    margin-top: 210px;
+     width: 210px;
  }
 
 @media screen and (max-width: 280px){
-    margin-top: 230px;
+    margin-top: 210px;
      width: 200px;
  }
 
