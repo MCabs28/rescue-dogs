@@ -1,5 +1,5 @@
 import React from 'react'
-import {animateScroll as scroll} from 'react-scroll'
+
 
 import {
      FaFacebook,
@@ -20,19 +20,16 @@ import {
     FooterLink,
     SocialMedia,
     SocialMediaWrap,
-    SocialLogo,
     WebsiteRights,
     SocialIcons,
     SocialIconLink,
-    LogoDog,
+
 
 } from './FooterElements'
 
 const Footer = () => {
 
-    const toggleHome =()=>{
-        scroll.scrollToTop();
-    }
+
 
   return (
     <>
